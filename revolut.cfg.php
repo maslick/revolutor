@@ -59,9 +59,9 @@ $saveRefreshTokenCb = function ($refresh_token, $expires) use ($path2refresh_tok
 
 
 $params = [
-	'apiUrl' => getenv("API_URL"),
-	'clientId' => getenv("REVOLUT_CLIENT_ID"),
-	'privateKey' => base64_decode(getenv("REVOLUT_PRIVATE_KEY")),
+    'apiUrl' => getenv("API_URL"),
+    'clientId' => getenv("REVOLUT_CLIENT_ID"),
+    'privateKey' => base64_decode(getenv("REVOLUT_PRIVATE_KEY")),
     'redirectUri' => getenv("REDIRECT_URL"),
     'accessToken' => $fetchToken(),
     'accessTokenExpires' => $fetchTokenExpires(),
@@ -69,7 +69,7 @@ $params = [
     'refreshTokenExpires' => $fetchRefreshTokenExpires(),
     'saveAccessTokenCb' => $saveAccessTokenCb,
     'saveRefreshTokenCb' => $saveRefreshTokenCb,
-	'logError' => function ($error){mail('pavel.masloff@gmail.com', 'Revolut API Error', $error);}
+    'logError' => function ($error){mail('pavel.masloff@gmail.com', 'Revolut API Error', $error);}
 ];
 
 $revolut = new \ITSOFT\Revolut\Revolut($params);
