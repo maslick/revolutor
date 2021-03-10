@@ -1,5 +1,8 @@
-# =REVOLUTOR=
+# =revolutor=
 Sample application using [itsoft7/revolut-php](https://github.com/itsoft7/revolut-php)
+
+## Demo
+https://revolutor.herokuapp.com
 
 ## Create private key and certificate
 ```shell
