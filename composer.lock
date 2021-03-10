@@ -4,14 +4,14 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3421e7907bfd43d72a2e8083096eb370",
+    "content-hash": "8d2df431978098d35ea83d94a1189b6e",
     "packages": [
         {
             "name": "itsoft/revolut",
             "version": "dev-bugfixes",
             "source": {
                 "type": "git",
-                "url": "git@github.com:maslick/revolut-php.git",
+                "url": "https://github.com/maslick/revolut-php.git",
                 "reference": "f80fcb74b0b9539692439e4f538f9162d5b38f58"
             },
             "dist": {
@@ -51,6 +51,9 @@
                 "revolut",
                 "single"
             ],
+            "support": {
+                "source": "https://github.com/maslick/revolut-php/tree/bugfixes"
+            },
             "time": "2021-03-10T19:32:45+00:00"
         }
     ],
@@ -62,7 +65,9 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
 }
