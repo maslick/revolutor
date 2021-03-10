@@ -50,4 +50,4 @@ open https://$APP_NAME.herokuapp.com                          # <- enjoy ;)
 ```
 
 ## Revolut Documentation
-[Revolut Business API Documentation](https://developer.revolut.com/docs/manage-accounts/#introduction-to-the-business-api).
+[Revolut Business API Documentation](https://developer.revolut.com/docs/manage-accounts/#introduction-to-the-business-api)
