@@ -1,0 +1,20 @@
+{
+  "name": "maslick/revolutor",
+  "description": "playing with Revolut Business API",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "maslick",
+      "email": "pavel.masloff@gmail.com"
+    }
+  ],
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/maslick/revolut-php.git"
+  }],
+  "require": {
+    "itsoft/revolut": "dev-bugfixes",
+    "ext-json": "*"
+  }
+}

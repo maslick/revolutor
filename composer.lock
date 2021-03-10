@@ -1,0 +1,68 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "3421e7907bfd43d72a2e8083096eb370",
+    "packages": [
+        {
+            "name": "itsoft/revolut",
+            "version": "dev-bugfixes",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:maslick/revolut-php.git",
+                "reference": "f80fcb74b0b9539692439e4f538f9162d5b38f58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/maslick/revolut-php/zipball/f80fcb74b0b9539692439e4f538f9162d5b38f58",
+                "reference": "f80fcb74b0b9539692439e4f538f9162d5b38f58",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-openssl": "*",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ITSOFT\\Revolut\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Igor Tarasov",
+                    "email": "igor@itsoft.ru",
+                    "homepage": "https://itsoft.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Revolut API in one php-class in one file without any dependencies.",
+            "homepage": "https://github.com/itsoft7/revolut-php/",
+            "keywords": [
+                "api",
+                "php",
+                "revolut",
+                "single"
+            ],
+            "time": "2021-03-10T19:32:45+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "itsoft/revolut": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.0.0"
+}
