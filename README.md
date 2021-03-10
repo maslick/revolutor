@@ -52,5 +52,7 @@ open https://$APP_NAME.herokuapp.com                          # <- enjoy ;)
 ## Revolut Business Console
 [Revolut Business API Documentation](https://developer.revolut.com/docs/manage-accounts/#introduction-to-the-business-api)
 
-![screen1](img/screen1.png)
-![screen2](img/screen2.png)
+<img src="./img/screen1.png" width="50%">
+
+
+<img src="./img/screen2.png" width="50%">
