@@ -69,7 +69,7 @@ $params = [
     'refreshTokenExpires' => $fetchRefreshTokenExpires(),
     'saveAccessTokenCb' => $saveAccessTokenCb,
     'saveRefreshTokenCb' => $saveRefreshTokenCb,
-    'errorUrl' => "/vendor/itsoft/revolut/error.php",
+    'errorUrl' => "/error.php",
     'logError' => function ($error){mail('pavel.masloff@gmail.com', 'Revolut API Error', $error);}
 ];
 
