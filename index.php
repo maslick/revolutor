@@ -2,7 +2,6 @@
 
 include 'revolut.cfg.php';
 
-error_log($revolut->accessToken);
 if(isset($_GET['code'])) $revolut->exchangeCodeForAccessToken();
 
 print "<pre>";
