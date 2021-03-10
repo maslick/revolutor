@@ -49,5 +49,8 @@ open https://sandbox-business.revolut.com/settings/api        # <- enable API ac
 open https://$APP_NAME.herokuapp.com                          # <- enjoy ;)
 ```
 
-## Revolut Documentation
+## Revolut Business Console
 [Revolut Business API Documentation](https://developer.revolut.com/docs/manage-accounts/#introduction-to-the-business-api)
+
+![screen1](img/screen1.png)
+![screen2](img/screen2.png)
