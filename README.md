@@ -19,6 +19,7 @@ composer install
 open https://sandbox-business.revolut.com/settings/api        # <- add certificate, get REVOLUT_CLIENT_ID
 
 export API_URL="https://sandbox-b2b.revolut.com/api/1.0"
+export AUTH_URL="https://sandbox-business.revolut.com/app-confirm"
 export REVOLUT_CLIENT_ID="xxxxxxxxxxxx"
 export REVOLUT_PRIVATE_KEY=$(cat privatekey.pem | base64 | tr -d '\n')
 export REDIRECT_URL=http://revolutor.tech:8080
@@ -41,6 +42,7 @@ open https://sandbox-business.revolut.com/settings/api        # <- add certifica
 
 heroku config:set \
   API_URL="https://sandbox-b2b.revolut.com/api/1.0" \
+  AUTH_URL="https://sandbox-business.revolut.com/app-confirm" \
   REVOLUT_CLIENT_ID="xxxxxxxxxxxx" \
   REVOLUT_PRIVATE_KEY=$(cat privatekey.pem | base64 | tr -d '\n') \
   REDIRECT_URL="https://$APP_NAME.herokuapp.com" \
