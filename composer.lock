@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58630cde83479b0d5d4d5aaa6924c646",
+    "content-hash": "faba2473327bb771d100a651739d7c37",
     "packages": [
         {
             "name": "itsoft/revolut",
-            "version": "dev-master",
+            "version": "dev-fix-goto-confirmation-url",
             "source": {
                 "type": "git",
-                "url": "https://github.com/itsoft7/revolut-php.git",
-                "reference": "79372e0921abf555fb0ff964eca979bdb4fbb184"
+                "url": "https://github.com/maslick/revolut-php.git",
+                "reference": "787bc1dda8eef98174f454d2cf71444429100a9e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itsoft7/revolut-php/zipball/79372e0921abf555fb0ff964eca979bdb4fbb184",
-                "reference": "79372e0921abf555fb0ff964eca979bdb4fbb184",
+                "url": "https://api.github.com/repos/maslick/revolut-php/zipball/787bc1dda8eef98174f454d2cf71444429100a9e",
+                "reference": "787bc1dda8eef98174f454d2cf71444429100a9e",
                 "shasum": ""
             },
             "require": {
@@ -26,7 +26,6 @@
                 "ext-openssl": "*",
                 "php": ">=5.4.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -59,10 +58,9 @@
                 "single"
             ],
             "support": {
-                "source": "https://github.com/itsoft7/revolut-php/tree/master",
-                "issues": "https://github.com/itsoft7/revolut-php/issues"
+                "source": "https://github.com/maslick/revolut-php/tree/fix-goto-confirmation-url"
             },
-            "time": "2021-03-11T05:51:04+00:00"
+            "time": "2021-03-11T10:39:54+00:00"
         }
     ],
     "packages-dev": [],

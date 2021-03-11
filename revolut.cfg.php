@@ -60,6 +60,7 @@ $saveRefreshTokenCb = function ($refresh_token, $expires) use ($path2refresh_tok
 
 $params = [
     'apiUrl' => getenv("API_URL"),
+    'authUrl' => getenv("AUTH_URL"),
     'clientId' => getenv("REVOLUT_CLIENT_ID"),
     'privateKey' => base64_decode(getenv("REVOLUT_PRIVATE_KEY")),
     'redirectUri' => getenv("REDIRECT_URL"),

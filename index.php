@@ -3,6 +3,7 @@
 include 'revolut.cfg.php';
 
 if(isset($_GET['code'])) $revolut->exchangeCodeForAccessToken();
+elseif(!$revolut->accessToken) $revolut->goToConfirmationURL();
 
 print "<pre>";
 
