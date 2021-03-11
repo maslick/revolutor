@@ -11,10 +11,10 @@
   ],
   "repositories": [{
     "type": "vcs",
-    "url": "https://github.com/maslick/revolut-php.git"
+    "url": "https://github.com/itsoft7/revolut-php.git"
   }],
   "require": {
-    "itsoft/revolut": "dev-bugfixes",
+    "itsoft/revolut": "dev-master",
     "ext-json": "*"
   }
 }
