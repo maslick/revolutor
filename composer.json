@@ -9,12 +9,8 @@
       "email": "pavel.masloff@gmail.com"
     }
   ],
-  "repositories": [{
-    "type": "vcs",
-    "url": "https://github.com/maslick/revolut-php.git"
-  }],
   "require": {
-    "itsoft/revolut": "dev-fix-goto-confirmation-url",
-    "ext-json": "*"
+    "ext-json": "*",
+    "itsoft/revolut": "^1.0"
   }
 }
