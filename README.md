@@ -17,6 +17,7 @@ sudo sh -c 'echo "\n127.0.0.1 revolutor.tech" >> /etc/hosts'
 composer install
 
 open https://sandbox-business.revolut.com/settings/api        # <- add certificate, get REVOLUT_CLIENT_ID
+
 export API_URL="https://sandbox-b2b.revolut.com/api/1.0"
 export REVOLUT_CLIENT_ID="xxxxxxxxxxxx"
 export REVOLUT_PRIVATE_KEY=$(cat privatekey.pem | base64 | tr -d '\n')
