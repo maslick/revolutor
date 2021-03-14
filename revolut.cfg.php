@@ -1,6 +1,7 @@
 <?php
 
 require_once('vendor/autoload.php');
+use \ITSOFT\Revolut\Revolut;
 
 $ROOT_PATH = getcwd();
 $path2token = $ROOT_PATH.'/token/revolut_token.json';
@@ -74,4 +75,4 @@ $params = [
     'logError' => function ($error){mail('pavel.masloff@gmail.com', 'Revolut API Error', $error);}
 ];
 
-$revolut = new \ITSOFT\Revolut\Revolut($params);
+$revolut = new Revolut($params);

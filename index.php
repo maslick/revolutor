@@ -1,6 +1,7 @@
 <?php
 
 include 'revolut.cfg.php';
+global $revolut;
 
 if(isset($_GET['code'])) $revolut->exchangeCodeForAccessToken();
 elseif(!$revolut->accessToken) $revolut->goToConfirmationURL();
