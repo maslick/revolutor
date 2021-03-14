@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e178398eaf171397550b8c22d4fcec37",
+    "content-hash": "7d2a3b9331f5dfe9e536b330ff735c9a",
     "packages": [
         {
             "name": "itsoft/revolut",
-            "version": "v1.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/itsoft7/revolut-php.git",
-                "reference": "4f40e1b1dacbab17679cc0084dd061f4115eae00"
+                "reference": "74a332b4605e9f912d4846a15ad83416a47b3a53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/itsoft7/revolut-php/zipball/4f40e1b1dacbab17679cc0084dd061f4115eae00",
-                "reference": "4f40e1b1dacbab17679cc0084dd061f4115eae00",
+                "url": "https://api.github.com/repos/itsoft7/revolut-php/zipball/74a332b4605e9f912d4846a15ad83416a47b3a53",
+                "reference": "74a332b4605e9f912d4846a15ad83416a47b3a53",
                 "shasum": ""
             },
             "require": {
@@ -60,9 +60,9 @@
             ],
             "support": {
                 "issues": "https://github.com/itsoft7/revolut-php/issues",
-                "source": "https://github.com/itsoft7/revolut-php/tree/v1.0"
+                "source": "https://github.com/itsoft7/revolut-php/tree/v1.1.0"
             },
-            "time": "2021-03-11T16:20:08+00:00"
+            "time": "2021-03-14T13:58:04+00:00"
         }
     ],
     "packages-dev": [],

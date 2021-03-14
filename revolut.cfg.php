@@ -50,11 +50,11 @@ $fetchTokenExpires = function () use ($access_token) { return $access_token['exp
 $fetchRefreshToken        = function () use ($refresh_token) { return $refresh_token['token']; };
 $fetchRefreshTokenExpires = function () use ($refresh_token) { return $refresh_token['expires']; };
 
-$saveAccessTokenCb = function ($access_token, $expires) use ($path2token) {
+$saveAccessTokenCallback = function ($access_token, $expires) use ($path2token) {
     file_put_contents($path2token, json_encode(['access_token' => $access_token, 'expires' => $expires]));
 };
 
-$saveRefreshTokenCb = function ($refresh_token, $expires) use ($path2refresh_token) {
+$saveRefreshTokenCallback = function ($refresh_token, $expires) use ($path2refresh_token) {
     file_put_contents($path2refresh_token, json_encode(['refresh_token' => $refresh_token, 'expires' => $expires]));
 };
 
@@ -69,10 +69,9 @@ $params = [
     'accessTokenExpires' => $fetchTokenExpires(),
     'refreshToken' => $fetchRefreshToken(),
     'refreshTokenExpires' => $fetchRefreshTokenExpires(),
-    'saveAccessTokenCb' => $saveAccessTokenCb,
-    'saveRefreshTokenCb' => $saveRefreshTokenCb,
-    'errorUrl' => "/error.php",
-    'logError' => function ($error){mail('pavel.masloff@gmail.com', 'Revolut API Error', $error);}
+    'saveAccessTokenCallback' => $saveAccessTokenCallback,
+    'saveRefreshTokenCallback' => $saveRefreshTokenCallback,
+    'logErrorCallback' => function ($error){mail('pavel.masloff@gmail.com', 'Revolut API Error', $error);}
 ];
 
 $revolut = new Revolut($params);
